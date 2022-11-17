@@ -1,0 +1,15 @@
+.movieList{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.movieListItem{
+    text-decoration: none;
+    color: rgb(60, 57, 57);
+
+    &:hover{
+        color: #000;
+        font-size: 20px;
+    }
+}

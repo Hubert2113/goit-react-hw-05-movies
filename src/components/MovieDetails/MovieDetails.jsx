@@ -32,7 +32,7 @@ const MovieDetails = () => {
     <>
         <section className={styles.movieInformation}>
           <div style={{ display: 'flex', flexDirection: 'column', width: '300px' }}>
-            <Link className={styles.goBackBtn} to={navigate.state?.from ?? "/goit-react-hw-05-movies/"}>
+            <Link className={styles.goBackBtn} to={navigate.state?.from ?? "/"}>
               <ArrowLeft />
               Go back
             </Link>
